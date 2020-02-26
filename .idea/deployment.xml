@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="203-ershouchengjiao">
+    <serverData>
+      <paths name="203-community">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/app/py/bk-community" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="203-ershouchengjiao">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/app/py/bk-ershouchengjiao" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="203-loupan">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/app/py/bk-loupan" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

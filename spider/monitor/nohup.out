@@ -1,0 +1,635 @@
+Traceback (most recent call last):
+  File "errorReporter.py", line 63, in <module>
+    e = ErrorReporter(Config.ERROR_QUEUE)
+  File "errorReporter.py", line 20, in __init__
+    self.mqObj = rabbitmqConnection(queueName)
+TypeError: __init__() takes 1 positional argument but 2 were given
+[2020-02-17 15:21:13,591] - [logtools.py] logtools.info.[line:92] - INFO - rabbitmq连接：host=127.0.0.1, port=5772,user=guest,password=guest
+[2020-02-17 15:21:13,640] - [logtools.py] logtools.info.[line:92] - INFO - mysql连接信息：mysql+mysqlconnector://root:mysqlByteoX1314520@127.0.0.1:3306/pms_spider
+[2020-02-17 15:21:13,643] - [logtools.py] logtools.info.[line:92] - INFO - 开始读取errorQueue队列
+[2020-02-17 15:21:13,664] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:1437dffa515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/sqlalche
+[2020-02-17 15:21:13,669] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:143ac350515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessProvinceQueue.py", line 43, in run
+    provinceId 
+[2020-02-17 15:21:13,674] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:143b7016515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:21:13,680] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:143c4612515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:21:13,685] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:143d32f2515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:21:13,690] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:143ddaf4515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:21:13,697] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:143ea1aa515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:21:13,702] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:143fb59a515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:21:13,707] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:1440778c515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:21:13,711] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:14413514515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:21:13,719] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:1441e216515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:21:13,726] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:14431168515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:21:13,731] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:14443714515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:21:13,737] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:1444fc9e515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:21:13,745] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:1445e3e8515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:21:23,519] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:1a198eb4515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:21:50,354] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:2a17dce4515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:21:50,503] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:2a2ef74e515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:24:25,179] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:86604464515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:26:32,941] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:d2878474515611eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:33:20,217] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:c548eb08515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/sqlalche
+[2020-02-17 15:33:21,760] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:c633b30e515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:23,253] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:c7185ac2515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:24,864] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:c80de9ce515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:26,604] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:c916b9d6515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:28,224] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:ca0e4ab6515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:29,410] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:cac3d782515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:31,091] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:cbc3db00515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:32,527] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:cc9f26f6515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:34,087] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:cd8d3698515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:36,581] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:cf0988d2515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:38,040] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:cfe82a88515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:39,566] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:d0d16ad6515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:41,131] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:d1bfb146515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:42,607] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:d2a121b2515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:44,192] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:d3937642515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:45,575] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:d45fd98a515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:46,888] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:d52ed00a515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:48,471] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:d62012f8515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:50,001] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:d709b34a515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:51,354] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:d7d7e2ba515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:52,919] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:d8c70818515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:54,457] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:d9b1b5ca515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:56,026] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:daa113ae515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:57,532] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:db86400a515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:33:58,991] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:dc655560515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:00,151] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:dd15b766515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:01,519] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:dde70492515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:04,027] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:df656660515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:04,914] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:dfed5138515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:06,492] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:e0ddf61a515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:07,941] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:e1bb14dc515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:09,514] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:e2aa7478515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:10,781] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:e36c7a50515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:12,437] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:e4687c7e515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:13,726] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:e52d907c515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:14,980] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:e5ec47a6515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:16,415] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:e6c83090515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:17,891] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:e7a9525a515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:19,348] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:e887457e515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:21,770] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:e9f8e232515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:23,432] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:eaf6b146515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:24,982] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:ebe31b1c515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:26,584] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:ecd79354515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:27,840] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:ed963b74515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:29,396] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:ee84e436515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:30,863] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:ef641142515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:32,349] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:f0478562515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:34,014] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:f144c556515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:36,430] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:f2b6265a515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:37,952] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:f39e3d64515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:39,494] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:f4898904515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:40,814] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:f552d44e515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:42,242] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:f62c9c24515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:43,667] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:f70682cc515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:45,868] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:f85605e4515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:46,944] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:f8f9da3e515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:51,345] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:fb99e8a6515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:53,645] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:fcf8d784515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:54,947] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:fdbf5828515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:56,179] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:fe7b96f0515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:57,379] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:ff32cfb4515711eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:34:59,000] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:002a2296515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:35:00,245] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:00e7c940515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:35:01,763] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:01cf2af6515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:35:03,316] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:02bc1c26515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:35:04,708] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:03913fdc515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:35:06,177] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:04713600515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:35:07,549] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:054208a2515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:35:09,372] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:0658ca50515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:35:10,940] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:0747de2e515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:35:12,600] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:0844dd90515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:35:14,204] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:0939f870515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:35:15,908] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:0a3dcbfc515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:36:59,029] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:47b4a618515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:37:15,379] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:5173b068515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:38:12,678] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:739ae152515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:39:48,615] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:acc8ee38515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:41:05,839] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:dad068ce515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:41:36,442] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:ed0e28d2515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:41:53,898] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:f775cd3e515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:41:54,196] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:f7a3fde4515811eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:42:31,442] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:0dd6f2d8515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:42:43,188] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:14d78d04515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:43:10,247] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:24f5fef0515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:43:12,412] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:26429246515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:43:14,269] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:275655e6515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:43:27,984] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:2f8a418c515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:43:56,378] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:40775444515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:44:31,087] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:55279f84515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:44:55,369] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:63a08580515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:44:56,588] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:645ac7ec515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:45:29,918] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:783850ea515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:45:38,545] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:7d5c472a515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:46:12,149] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:916419a0515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:46:26,023] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:99a985dc515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:46:34,228] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:9e8d5268515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:46:46,602] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:a5ed23a8515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:47:06,374] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:b1b65998515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:47:24,638] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:bc9941c2515911eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:49:52,471] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:14b6d5a4515a11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:51:25,395] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:4c19cc54515a11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:51:45,261] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:57f14318515a11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:52:08,417] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:65be80a0515a11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:52:47,150] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:7cd4a21a515a11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:54:41,507] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:c0fe759c515a11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:54:56,538] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:c9f34222515a11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:55:50,107] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:e9e1ea16515a11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:56:14,434] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:f8619fdc515a11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:56:58,381] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:12927f0c515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:56:59,201] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:1310c8b2515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:58:28,465] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:484538a6515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/sqlalche
+[2020-02-17 15:58:29,994] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:492e8830515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:31,488] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:4a12999e515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:32,034] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:4a658cf8515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:58:33,111] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:4b0a25ce515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:34,810] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:4c0d9f6e515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:36,395] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:4cff7492515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:38,077] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:4e001536515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:39,700] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:4ef7b1a6515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:42,024] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:505a4be4515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:43,423] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:512f2a3a515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:44,907] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:52120166515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:46,540] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:530b7bce515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:48,119] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:53fc6dd6515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:49,744] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:54f43fc0515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:51,233] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:55d73898515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:52,724] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:56bb1126515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:54,215] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:579e8c80515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:55,918] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:58a259d6515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:57,382] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:59818926515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:58:58,915] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:5a6b5c0e515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:00,488] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:5b5b8bde515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:01,854] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:5c2c1f24515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:02,750] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:5cb4df80515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:59:03,470] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:5d2296ec515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:05,043] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:5e12c824515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:06,573] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:5efc2ee2515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:08,040] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:5fdc0d3c515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:09,794] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:60e797fa515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:11,602] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:61fb5f82515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:13,094] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:62df02e6515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:14,718] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:63d6f474515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:16,308] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:64c9bed4515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:17,843] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:65b3a576515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:19,578] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:66bc0652515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:20,974] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:6791756c515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:22,419] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:686e3880515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:24,055] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:69677f58515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:25,413] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:6a36abde515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:26,799] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:6b0a808a515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:28,264] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:6be9d2c6515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:29,946] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:6ceaa70e515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:31,334] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:6dbe6dfa515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:32,917] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:6eaff81e515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:34,261] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:6f7d1e0c515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:35,483] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:7037a8bc515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:36,825] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:71043cce515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:38,346] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:71e39072515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:39,830] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:72bac6aa515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:41,558] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:73c42302515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:42,674] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:747831da515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:44,115] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:75564484515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:45,598] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:763eb278515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:46,875] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:77019efa515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:48,257] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:77d4bb00515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:50,148] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:78f51ce6515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:51,494] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:79c2a4ae515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:53,048] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:7aafaa6a515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:53,418] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:7ae7b130515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 15:59:54,300] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:7b6e9e34515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:55,275] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:7c02dfea515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:56,577] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:7cc86814515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:58,073] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:7dae34d4515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 15:59:59,775] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:7eb13ba6515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:01,484] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:7fb6e8ca515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:03,123] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:80b06e86515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:04,767] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:81abecc0515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:06,292] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:82949812515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:07,989] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:83974eb2515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:09,704] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:849cfbea515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:11,325] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:85938c30515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:11,480] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:85ac2b8c515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 16:00:13,282] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:86bea23e515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:14,923] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:87b9860e515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:16,551] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:88b1d7e6515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:18,048] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:89962928515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:21,627] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:8bb8614e515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:24,136] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:8d374a94515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:25,932] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:8e485162515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:27,444] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:8f2f9676515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:29,134] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:9031a582515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:30,750] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:912803f0515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:00:32,400] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:92246c08515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:01:30,088] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:b486cbb0515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:01:30,132] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:b48dbe52515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:02:18,699] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:d1805ef2515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 16:02:59,264] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:e9ace4d2515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 16:03:22,266] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:f763c028515b11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 16:04:40,381] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:25f32a3c515c11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 16:08:10,881] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:a36b1222515c11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 16:09:22,625] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:ce2c5264515c11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 16:14:29,518] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:851a776c515d11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:14:29,564] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:8521830e515d11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "ProcessCommunityDetailQueue.py", line 36, in callback
+   
+[2020-02-17 16:16:12,053] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:c2382536515d11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 16:16:39,329] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:d279ed1c515d11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+[2020-02-17 16:16:51,079] - [logtools.py] logtools.info.[line:92] - INFO - 已入库，异常id:d97acf32515d11eaa1b400163e0384d7,异常信息:Traceback (most recent call last):
+  File "/usr/local/python3.7/lib/python3.7/site-packages/urllib3/
+Traceback (most recent call last):
+  File "errorReporter.py", line 63, in <module>
+    e.run()
+  File "errorReporter.py", line 59, in run
+    self.channel.start_consuming()
+  File "/usr/local/python3.7/lib/python3.7/site-packages/pika/adapters/blocking_connection.py", line 1866, in start_consuming
+    self._process_data_events(time_limit=None)
+  File "/usr/local/python3.7/lib/python3.7/site-packages/pika/adapters/blocking_connection.py", line 2027, in _process_data_events
+    self.connection.process_data_events(time_limit=time_limit)
+  File "/usr/local/python3.7/lib/python3.7/site-packages/pika/adapters/blocking_connection.py", line 825, in process_data_events
+    self._flush_output(common_terminator)
+  File "/usr/local/python3.7/lib/python3.7/site-packages/pika/adapters/blocking_connection.py", line 522, in _flush_output
+    raise self._closed_result.value.error
+pika.exceptions.ConnectionClosedByBroker: (320, 'CONNECTION_FORCED - Closed via management plugin')

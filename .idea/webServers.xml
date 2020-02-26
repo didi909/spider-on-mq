@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3436a80c-a479-49db-8c30-378f838c5a83" name="203-loupan" url="http://39.98.170.203">
+        <fileTransfer host="39.98.170.203" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6e96ea35-e402-4a56-8fd8-473f048a10ff" name="203-ershouchengjiao" url="http://39.98.170.203">
+        <fileTransfer host="39.98.170.203" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
